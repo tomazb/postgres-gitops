@@ -9,7 +9,7 @@ spec:
     server: 'https://kubernetes.default.svc'
   project: default
   source:
-    path: postgres
+    path: postgres/overlays/dev
     repoURL: 'https://github.com/tomazb/postgres-gitops'
     targetRevision: HEAD
   syncPolicy:

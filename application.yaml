@@ -11,7 +11,7 @@ spec:
   source:
     path: postgres/overlays/dev
     repoURL: 'https://github.com/tomazb/postgres-gitops'
-    targetRevision: HEAD
+    targetRevision: postgres-kustomize
   syncPolicy:
     automated:
       prune: true

@@ -7,6 +7,7 @@ spec:
     spec:
       containers:
       - name: postgres
+        image: registry.redhat.io/rhel9/postgresql-16:9.5-1741883224
         resources:
           limits:
             memory: 1024Mi
